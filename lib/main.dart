@@ -40,8 +40,10 @@ class HomePage extends StatelessWidget {
             ),
           ),
           ...['1', '2', '3', '4', '5'].map(
-            (digit) =>
-                LearningCard(text: digit, color: Colors.lightBlue.shade400),
+            (digit) => LearningCard(
+              text: digit,
+              color: const Color.fromARGB(255, 184, 40, 35),
+            ),
           ),
         ],
       ),
