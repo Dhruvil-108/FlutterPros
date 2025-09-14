@@ -1,0 +1,36 @@
+# Ignore Flutter/Dart build and generated files for all nested projects
+
+# Dart/Flutter related
+**/.dart_tool/
+**/.packages
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/build/
+**/pubspec.lock
+
+# Android
+**/android/.gradle/
+**/android/app/build/
+**/android/build/
+
+# iOS
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Pods/
+**/ios/Runner.xcworkspace/
+**/ios/build/
+
+# VS Code settings
+.vscode/
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+
+# Misc
+*.lock
+*.log
+*.lock.yaml
+
+# Local environment files (if any)
+**/*.env
