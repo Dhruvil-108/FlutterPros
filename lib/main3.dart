@@ -1,3 +1,4 @@
+// import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'dart:math';
 
@@ -30,7 +31,7 @@ class _EMICalculatorScreenState extends State<EMICalculatorScreen> {
   final TextEditingController _principalController = TextEditingController();
   final TextEditingController _rateController = TextEditingController();
   final TextEditingController _timeController = TextEditingController();
-
+  // AudioPlayer audioPlayer = AudioPlayer();
   double _emiResult = 0.0;
 
   void _calculateEMI() {
@@ -98,10 +99,14 @@ class _EMICalculatorScreenState extends State<EMICalculatorScreen> {
                 spacing: 10,
                 runSpacing: 10,
                 children: [
-                  ElevatedButton(
-                    onPressed: () => _setLoanRate(8),
-                    child: const Text("Home Loan (8%)"),
-                  ),
+                  // ElevatedButton(
+                  //   onPressed: () async {
+                  //     await audioPlayer.play(
+                  //       AssetSource('music/Robert Miles - Children.mp3'),
+                  //     );
+                  //   },
+                  //   child: Text("Play"),
+                  // ),
                   ElevatedButton(
                     onPressed: () => _setLoanRate(9),
                     child: const Text("Car Loan (9%)"),

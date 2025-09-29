@@ -37,6 +37,10 @@ dependencies:
   fluttertoast: ^8.2.12
   shared_preferences: ^2.5.3
   flutter_tts: ^4.2.3
+  audioplayers: ^6.5.1
+  http: ^1.5.0
+  pdf: ^3.11.3
+  printing: ^5.14.2
 
 dev_dependencies:
   flutter_test:
@@ -67,6 +71,7 @@ flutter:
 
   assets:
     - assets/images/
+    - assets/music/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
